@@ -16,7 +16,7 @@ android.permission.WAKE_LOCK
 android.permission.VIBRATE
 android.permission.FOREGROUND_SERVICE
 "
-echo "[ * ] Fixing NetHunter permissions for Android 12.."
+echo "[ * ] Fixing NetHunter permissions for Android 12+.."
 for perm in $PERMISSIONS; do pm grant -g com.offsec.nethunter $perm; done
 sleep 3
 echo "[ + ] Done!"

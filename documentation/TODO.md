@@ -24,4 +24,8 @@
 - [x] add proper OS detection for preventing local builds in unsupported systems;
 - [x] add static analysis for the wrapper;
 - [x] add a single-point manifest with main info on the tool;
-- [ ] add a unified banner for the wrapper.
+- [ ] add a unified banner for the wrapper;
+- [ ] add description when creating a release via CI/CD;
+- [ ] improve CI/CD flexibility (variable-wise);
+- [ ] add static analysis report to release body;
+- [ ] improve documentation (visual-wise).
